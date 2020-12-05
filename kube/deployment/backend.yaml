@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: spring-boot-hpa
+        image: malditoidealismo/spring-boot-hpa
         imagePullPolicy: IfNotPresent
         env:
         - name: ACTIVEMQ_BROKER_URL
